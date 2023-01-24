@@ -1,0 +1,19 @@
+p::before {
+    content: "➵";
+    color: blue;
+    font-size:30px;
+}
+
+p::after {
+    content: " <...>"
+}
+
+.index.html p::after {
+    content: "<...>"
+}
+
+.index.html p:first-of-type::after {
+
+content: "<...>"
+
+}
